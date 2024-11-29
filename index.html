@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bright Horizons Daycare Center</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1, h2, h3 {
+      color: #333;
+    }
+
+    p {
+      color: #555;
+    }
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* Header */
+    header {
+      background-color: #ffcc00;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('https://via.placeholder.com/1500x600') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+
+    .hero a {
+      background-color: #ff6f61;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border-radius: 5px;
+    }
+
+    /* Services Section */
+    .services {
+      padding: 50px 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    .services h2 {
+      margin-bottom: 20px;
+    }
+
+    .services .service {
+      display: inline-block;
+      width: 30%;
+      margin: 10px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .services .service h3 {
+      margin-bottom: 10px;
+    }
+
+    /* Testimonials Section */
+    .testimonials {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .testimonials h2 {
+      margin-bottom: 20px;
+    }
+
+    .testimonials p {
+      font-style: italic;
+      color: #666;
+    }
+
+    /* Contact Section */
+    .contact {
+      padding: 50px 20px;
+      background-color: #ff6f61;
+      color: white;
+      text-align: center;
+    }
+
+    .contact h2 {
+      margin-bottom: 20px;
+    }
+
+    .contact form input, 
+    .contact form textarea {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .contact form button {
+      background-color: #fff;
+      color: #ff6f61;
+      padding: 10px 20px;
+      border: none;
+      font-size: 1em;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: #ffcc00;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .services .service {
+        width: 90%;
+        margin: 20px auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Bright Horizons Daycare Center</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>High-Quality Childcare You Can Trust</h2>
+    <p>Safe, nurturing, and stimulating care for children aged 6 months to 12 years.</p>
+    <a href="#contact">Enroll Now</a>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service">
+      <h3>Infant Care</h3>
+      <p>Personalized care for infants aged 6 months to 18 months.</p>
+    </div>
+    <div class="service">
+      <h3>Preschool Program</h3>
+      <p>Comprehensive early education for children aged 3 to 5 years.</p>
+    </div>
+    <div class="service">
+      <h3>Before & After School Care</h3>
+      <p>Fun, safe care for children aged 6 to 12 years outside school hours.</p>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <h2>What Parents Say</h2>
+    <p>"Bright Horizons has been a lifesaver for our family. The staff is wonderful, and my kids love it!" - Sarah, Parent</p>
+    <p>"The facilities are clean and modern, and the programs are engaging for kids of all ages!" - Mark, Parent</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Bright Horizons Daycare Center. All rights reserved.</p>
+    <p><a href="#contact">Contact Us</a></p>
+  </footer>
+</body>
+</html>
